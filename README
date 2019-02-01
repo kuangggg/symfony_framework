@@ -1,0 +1,15 @@
+# 这是一个用 Symfony 组件搭建的微型框架
+
+
+
+
+
+//加入自动加载器中
+    "autoload": {
+        "psr-4": {
+        	"App\\": "./src/App",
+        	"Simplex\\": "./src/Simplex"
+        }
+    }
+
+composer dump-autoload
